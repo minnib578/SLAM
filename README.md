@@ -15,13 +15,15 @@ The problems that SLAM solves are Localization and map building under unknown en
 steps:
 * Reading sensors data: reading images and images preprocessing,other sensoe information: IMU and wheel speed sensor
 * Front-end: estimating the pose of camera between sequence frames and build local map
-* Back-end: Back end receive estimated camera pose at different time step and the information from loop closure detection. optimize these information to build global map based multiple optimization methods: linear(EKF) and non-linear (BA)
+* Back-end: Back end receive estimated camera pose at different time step and the information from loop closure detection. optimize these information to build global map based multiple optimization methods: linear(EKF) and non-linear (BA) and to minimize the influence of accumulating drift( error from previous convert to next state, caused by the pose calculated by current state and previous state)
 * Loop closure detection:Loop closure detection is the process of detecting whether an agent has returned to a previously visited location.
 * Mapping: build map
 
+Accumulating drift: loop closure detection and back end optimization
 
 The most import sensors in Visual SLAM is camera.
-
 1. Monocular camera: single image frame, lose depth information, scale ambiguity
 2. Stereo camera: high computation/complicated calibration, measure depth range depends on the baseline
-3. RGBD　ｃａｍｅｒａ：ｓｅｎｄｉｎｇ infrared strcture light to measure the distance，ｓｅｎｓｉｔｉｖｅ　ｔｏ　ｌｉｇｈｔｉｎｇ　ｃｏｎｄｉｔｉｏｎ
+3. RGBD camera: sending infrared strcture light to measure the distance,sensitive to lighting condition，used in indoor environment，ｃannot measure transparent surface．
+
+### 3) Rigid bady transformation in three-dimension space
