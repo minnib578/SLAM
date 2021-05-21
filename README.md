@@ -23,4 +23,5 @@ steps:
 The most import sensors in Visual SLAM is camera.
 
 1. Monocular camera: single image frame, lose depth information, scale ambiguity
-
+2. Stereo camera: high computation/complicated calibration, measure depth range depends on the baseline
+3. RGBD　ｃａｍｅｒａ：ｓｅｎｄｉｎｇ infrared strcture light to measure the distance，ｓｅｎｓｉｔｉｖｅ　ｔｏ　ｌｉｇｈｔｉｎｇ　ｃｏｎｄｉｔｉｏｎ
