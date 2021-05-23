@@ -29,26 +29,35 @@ The most import sensors in Visual SLAM is camera.
 ### 3. Rigid bady transformation in three-dimension space: Rotation matrix, Transformation Matrix,Applications of Quaternions,Axis-angle
 #### linear algebra review:
 * point
+
    ![image](https://user-images.githubusercontent.com/63558665/119247009-4ab5af80-bb54-11eb-9026-a89b554d368a.png)
 * vector
+
    ![image](https://user-images.githubusercontent.com/63558665/119247018-5b662580-bb54-11eb-9170-cf675f2f8d23.png)
 * Dot product
+
    ![image](https://user-images.githubusercontent.com/63558665/119247166-653c5880-bb55-11eb-9e82-80fa5fda0fb6.png)
 * cross product
+
    ![image](https://user-images.githubusercontent.com/63558665/119247161-59509680-bb55-11eb-8249-a38f5920e270.png)
    ![image](https://user-images.githubusercontent.com/63558665/119247173-77b69200-bb55-11eb-8b1a-28b0d3a63ff5.png)
    ![image](https://user-images.githubusercontent.com/63558665/119247184-8ef57f80-bb55-11eb-91a2-7a357a9c96df.png)
 #### transformation
 * Euclidean transformation:
+
    ![image](https://user-images.githubusercontent.com/63558665/119247262-01665f80-bb56-11eb-9ece-2203b25bd712.png)
    ![image](https://user-images.githubusercontent.com/63558665/119247277-1fcc5b00-bb56-11eb-8af1-7aa9047bee27.png)
 The relationship between two coordinations can be expressed as:
+
    ![image](https://user-images.githubusercontent.com/63558665/119247299-4db19f80-bb56-11eb-8a01-31f1f6d8e6b1.png)
 Rotation matrix is orthonormal matrix,Each column(row) vector is a unit vector, They are orthogonal to each other
+
    ![image](https://user-images.githubusercontent.com/63558665/119247352-b436bd80-bb56-11eb-89d9-d8a35a289312.png)
 Since Rotation matrix is orthonomal matrix, then:
+
    ![image](https://user-images.githubusercontent.com/63558665/119247387-ee07c400-bb56-11eb-8440-445a68b0097f.png)
 Considering translation:
+
    ![image](https://user-images.githubusercontent.com/63558665/119247438-63739480-bb57-11eb-8f21-0af9b6c7552b.png)
 
 
