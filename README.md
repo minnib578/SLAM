@@ -26,7 +26,7 @@ The most import sensors in Visual SLAM is camera.
 2. Stereo camera: high computation/complicated calibration, measure depth range depends on the baseline
 3. RGBD camera: sending infrared strcture light to measure the distance,sensitive to lighting condition，used in indoor environment，ｃannot measure transparent surface．
 
-### 3. Rigid bady transformation in three-dimension space: Rotation matrix, Transformation Matrix,Applications of Quaternions,Axis-angle
+### 3. Rigid bady transformation in three-dimension space: Rotation matrix, Transformation Matrix, Quaternions,Axis-angle,euler angle
 #### linear algebra review:
 * point
 
@@ -60,7 +60,7 @@ Since Rotation matrix is orthonomal matrix, then:
 
    ![image](https://user-images.githubusercontent.com/63558665/119247387-ee07c400-bb56-11eb-8440-445a68b0097f.png)
 
-Considering translation:
+Considering translation:Homogeneous coordiantion
 
    ![image](https://user-images.githubusercontent.com/63558665/119247438-63739480-bb57-11eb-8f21-0af9b6c7552b.png)
 
