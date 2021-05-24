@@ -60,11 +60,11 @@ Since Rotation matrix is orthonomal matrix, then:
 
    ![image](https://user-images.githubusercontent.com/63558665/119247387-ee07c400-bb56-11eb-8440-445a68b0097f.png)
 
-Considering translation:Homogeneous coordiantion
+Considering translation:
 
    ![image](https://user-images.githubusercontent.com/63558665/119247438-63739480-bb57-11eb-8f21-0af9b6c7552b.png)
 
-
+The above transformation is non-linear and then we introduce homogeneous coordination
 
 
 
